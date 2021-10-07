@@ -10,3 +10,38 @@ body {
 }
 
 /* Add styles here! */
+
+body {
+  background: hsl(0deg, 0%, 60%);
+}
+
+header {
+  background-color: white;
+}
+
+.max-width-wrapper {
+  padding-top: 32px;
+}
+
+.card {
+  background-color: white;
+  padding: 8px 16px 16px 16px;
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.indented-heading {
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+  padding: 16px;
+  margin: 0px;
+  margin-left: -24px;
+  display: inline-block;
+}
+
+.intro-chunk {
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
